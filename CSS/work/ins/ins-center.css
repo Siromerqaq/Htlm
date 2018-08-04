@@ -1,0 +1,54 @@
+#center-top-left-close{
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    background-image: url(img/close.svg);
+    background-size: 100%;
+}
+#center-top-left-text{
+    font-size: 20px;
+    margin-left: 10px;
+}
+#center-top-left-more{
+   width: 15px;
+    height: 15px;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(img/sanjiao.svg);
+    margin-left: 5px;
+}
+#center-top-right-text{
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(93,162,225);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#max-picture{
+    width: 100%;
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+
+
+}

@@ -1,0 +1,177 @@
+.quick-picture{
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    height: 70px;
+    width: 70px;
+    margin: 5px 2px 2px 13px;
+    background-position: center;
+    background-size: cover;
+
+}
+#head-picture1{
+    background-image: url(../chat/img/a.jpg);
+}
+#head-picture2{
+    background-image: url(../chat/img/b.jpg);
+}
+#head-picture3{
+    background-image: url(../chat/img/c.jpg);
+}
+#head-picture4{
+    background-image: url(../chat/img/d.jpg);
+}
+#head-picture5{
+    background-image: url(../chat/img/e.jpg);
+}
+#head-picture6{
+    background-image: url(../chat/img/f.jpg);
+}
+#head-picture7{
+    background-image: url(../chat/img/g.jpg);
+}
+#head-picture8{
+    background-image: url(../chat/img/h.jpg);
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 6px 0px 0px 15px;
+    box-shadow:0px 0px 30px #BDBDBD;
+
+}
+#head-picture8add{
+    background-image: url(img/tianjia.svg);
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 2px 0px 0px 15px;
+    position: absolute;
+    right: 15px;
+    bottom: 16px;
+    border: whitesmoke solid 3px;
+    box-shadow: 0px 0px 2px gray;
+}
+
+.top-picture1{
+    background-image: url(../chat/img/a.jpg);
+}
+.top-picture2{
+    background-image: url(../chat/img/c.jpg);
+}
+.top-picture3{
+    background-image: url(../chat/img/e.jpg);
+}
+.top-picture4{
+    background-image: url(../chat/img/d.jpg);
+}
+.top-picture5{
+    background-image: url(../chat/img/h.jpg);
+}
+.top-picture6{
+    background-image: url(../chat/img/g.jpg);
+}
+.top-picture7{
+    background-image: url(../chat/img/f.jpg);
+}
+.top-picture8{
+    background-image: url(../chat/img/b.jpg);
+}
+
+
+
+.middle-picture1{
+    background-image: url(img/kathy.jpg);
+}
+.middle-picture2{
+    background-image: url(img/2b.jpg);
+}
+.middle-picture3{
+    background-image: url(img/mccree.jpg);
+}
+.middle-picture4{
+    background-image: url(img/vmercy.jpg);
+}
+.middle-picture5{
+    background-image: url(img/dmercy.jpg);
+}
+.middle-picture6{
+    background-image: url(img/widow.jpg);
+}
+.middle-picture7{
+    background-image: url(img/dva.jpg);
+}
+.middle-picture8{
+    background-image: url(img/genji.jpg);
+}
+
+
+
+.item-bottom-love{
+    background-image: url(img/love.svg);
+}
+.item-bottom-msg{
+    background-image: url(img/msg.svg);
+}
+.item-bottom-send{
+    background-image: url(img/send.svg);
+}
+.item-bottom-center{
+    background-image: url(img/item-bottom-top-center.svg);
+}
+.item-bottom-collect{
+    background-image: url(img/collect.svg);
+}
+
+
+#person-title-history{
+    background-image: url(img/history.svg)
+}
+#person-title-collect{
+    background-image: url(img/collect.svg)
+}
+#person-title-addconnect{
+     background-image: url(img/addconnect.svg)
+
+ }
+#person-title-facebook{
+      background-image: url(img/facebook.svg)
+   }
+#person-title-more{
+       background-image: url(img/top-add.svg)
+}
+#bottom-ninepicture{
+        background-image: url(img/ninepicture.svg)}
+#bottom-onepicture{
+    background-image: url(img/onepicture.svg);
+}
+#bottom-camera{
+    background-image: url(img/bottom-camera.svg);
+}
+#commend{
+    background-image: url(../chat/img/a.jpg);
+}
+#music{
+    background-image: url(../chat/img/g.jpg);
+}
+#fashion{
+    background-image: url(../chat/img/h.jpg);
+}
+#cartoon{
+    background-image: url(../chat/img/b.jpg);
+}
+#tv{
+    background-image: url(../chat/img/e.jpg);
+}
+#movie{
+    background-image: url(../chat/img/c.jpg);
+}
+#sport{
+    background-image: url(../chat/img/f.jpg);
+}
+#dance{
+    background-image: url(../chat/img/a.jpg);
+}

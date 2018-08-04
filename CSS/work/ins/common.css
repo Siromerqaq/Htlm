@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "微软雅黑 Light";
+}
+.shadow{
+    box-shadow: 0px 0px 2px ghostwhite;
+
+}
+.x-y center{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.menubackgrondpicture{
+     background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
+     width: 30px;
+     height: 30px;
+ }
+.titlebackgrondpicture{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}

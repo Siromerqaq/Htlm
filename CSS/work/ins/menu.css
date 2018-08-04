@@ -1,0 +1,30 @@
+#menu{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(250,250,250);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#home{
+        background-image: url(img/home.svg);
+        margin-left: 3px;
+}
+#search{
+    background-image: url(img/search.svg);
+
+}
+#add{
+    background-image: url(img/add.svg);
+
+}
+#love{
+    background-image: url(img/love.svg);
+
+}
+#connect{
+    background-image: url(img/connect.svg);
+    margin-right: 3px;
+
+}

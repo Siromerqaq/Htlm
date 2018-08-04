@@ -1,0 +1,42 @@
+#interact-left{
+    height: 56px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.title-text{
+    font-size: 25px;
+    color: rgb(157,157,157);
+     font-weight: 800;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 58px;
+    border-bottom: gray 1px solid;
+    text-decoration: none;
+}
+.title-text:link {
+    text-decoration: none;
+}
+.title-text:visited {
+    text-decoration: none;
+}
+.title-text:hover {
+    text-decoration: none;
+}
+.title-text:active {
+    text-decoration: none;
+}
+
+
+#interact-right{
+    height: 56px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

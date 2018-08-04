@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: "微软雅黑 Light";
+        }
+        .border1{
+            border: 1px solid red;
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        .main{
+            position: relative;
+            width: 410px;
+            height:860px;
+            overflow-y: hidden;
+        }
+        .container{
+            position: relative;
+            width: 400px;
+            height: 800px;
+            overflow: scroll;
+            margin: 10px 10px 0px 10px;
+            background-image: url("img/mercy.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.95;
+        }
+        .sub{
+            position: relative;
+            width: 400px;
+            height: 2000px;
+
+
+        }
+        .gsub{
+            width: 380px;
+            height: auto;
+            position: relative;
+            left: 2%;
+            margin: 10px 0px 10px 0px ;
+            }
+        .text1{
+             width: 300px;
+             position: relative;
+             height: auto;
+             top: 30%;
+             float: right;
+             margin-right: 4px;
+             text-align: left;
+             line-height: 20px;
+             font-size: 20px;
+             padding: 3px;
+             background-color: #BDBDBD;
+             border-radius: 15px;
+             box-shadow: 0px 0px 4px grey;
+
+         }
+        .text2{
+            width: 300px;
+            position: relative;
+            top: 28%;
+            float: left;
+            margin-left: 4px;
+            text-align: right;
+            line-height: 20px;
+            font-size: 20px;
+            padding: 3px;
+            background-color: #00C853;
+            border-radius: 15px;
+            box-shadow: 0px 0px 4px grey;
+
+
+        }
+        .picture1{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            float: left;
+            position: relative;
+            top: 20%;
+            margin-left:4px;
+            background-image: url(img/a.jpg);
+            background-position: center;
+            background-size: 100%;
+            box-shadow: 0px 0px 4px grey;
+
+        }
+        .picture2{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            float: right;
+            position: relative;
+            top: 20%;
+            margin-right: 3px;
+            background-image: url(img/b.jpg);
+            background-position: center;
+            background-size: 100%;
+            box-shadow: 0px 0px 4px grey;
+
+        }
+        .picture3{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            float: left;
+            position: relative;
+            top: 20%;
+            margin-left:4px;
+            background-image: url(img/c.jpg);
+            background-position: center;
+            background-size: 100%;
+            box-shadow: 0px 0px 4px grey;
+
+        }
+        .picture4{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            float: left;
+            position: relative;
+            top: 20%;
+            margin-left:4px;
+            background-image: url(img/d.jpg);
+            background-position: center;
+            background-size: 100%;
+            box-shadow: 0px 0px 4px grey;
+
+        }
+        .img1{
+            height: 100px;
+            width: 100px;
+            position: relative;
+            left: 200px;
+            top: auto;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url(../../animation/mp3/mp3.jpg);
+
+        }
+        .img2{
+            height: 100px;
+            width: 100px;
+            position: relative;
+            left: -190px;
+            top: auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(img/e.png);
+
+        }
+        .skip{
+            height: 300px;
+            width: 410px;
+            position: relative;
+            transition:all 2s ease-in-out;
+        }
+        .skip:hover{
+            transform: translate(0px,-308px);
+            position: relative;
+
+        }
+        .enter0{
+            height: 50px;
+            width: 400px;
+            position: relative;
+            background-color: rgb(250,250,250);
+            margin: 0px 0px 0px 10px;
+
+        }
+        .enter1{
+            height: 50px;
+            width: 335px;
+            position: absolute;
+            margin:0px 0px 0px 10px;
+            background-image: url(img/shurukuang.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left;
+            left: 0%;
+            border-radius:25px;
+        }
+        .enter2{
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            margin:0px 0px 0px 10px;
+            background-image: url(img/shuru.svg);
+            background-size: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
+            right: 0%;
+        }
+        .input{
+            width: 400px;
+            height: 300px;
+            background-image: url(img/key.jpg);
+            background-position: center;
+            background-size: 100%;
+            margin:0px 0px 0px 10px;
+            position: relative;
+        }
+
+    </style>
+
+<body>
+</head>
+            <div class="main ">
+
+                        <div class="container ">
+                            <div class="sub ">
+                                <div class=" gsub ">
+                                    <div class="picture1 "></div>
+                                    <div class="text1 ">hey, guys, what are you going to do when you get home? </div>
+
+                                    <br clear="both">
+
+                                </div>
+                                <div class=" gsub">
+                                    <div class="picture2 "></div>
+                                    <div class="text2 "> I'm going to watch the soccer game replay.My parents won't let me watch in the early morning.I'm so mad at them.</div>
+
+                                    <br clear="both">
+
+                                </div>
+                                <div class=" gsub">
+                                    <div class="picture3 "></div>
+                                    <div class="text1 "> I think I'm going to get something to eat first. I'm so hungry.</div>
+                                    <br clear="both">
+
+                                </div>
+                                <div class=" gsub">
+                                    <div class="picture2 "></div>
+                                    <div class="text2 "> what about you?</div>
+                                    <br clear="both">
+
+                                </div>
+                                <div class=" gsub">
+                                    <div class="text1 "> I can't wait to lie down on my sofa. I'm so sleepy.</div>
+                                    <div class="picture4 "></div>
+                                    <br clear="both">
+
+                                </div>
+                                <div class=" gsub">
+                                    <div class="text1 "> If you're sleepy and you know it take a nap.</div>
+                                    <div class="picture1 "></div>
+                                    <br clear="both">
+
+                                </div>
+                                <div class=" gsub">
+                                    <div class="img1 text2  " ></div>
+                                    <div class="picture2 "></div>
+                                    <br clear="both">
+
+                                </div>
+                                <div class=" gsub ">
+                                    <div class="text1 ">Your happy passer-by all knows, my distressed there is no place hides.</div>
+                                    <div class="picture4 "></div>
+                                    <br clear="both">
+
+                                </div>
+                                <div class="gsub ">
+                                    <div class="text1 "> Love is not a maybe thing. You know when you love someone.</div>
+                                    <div class=picture1 "></div>
+                                <br clear="both">
+
+                            </div>
+                                <div class="gsub ">
+                                    <div class="text1 img2"> </div>
+                                    <div class=picture3 "></div>
+                            <br clear="both">
+                            </div>
+                                <div class="gsub ">
+                                    <div class="text1 "> Today is a sunny day.</div>
+                                    <div class=picture3 "></div>
+                                <br clear="both">
+
+                            </div>
+                                <div class="gsub ">
+                                    <div class="text2 "> Love is not a maybe thing. You know when you love someone.</div>
+                                    <div class=picture2 "></div>
+                                <br clear="both">
+
+                                </div>
+                                    <div class=" gsub">
+                                        <div class="picture2 "></div>
+                                        <div class="text2 "> what about you?</div>
+                                        <br clear="both">
+
+                                    </div>
+                                    <div class=" gsub">
+                                        <div class="text1 "> I can't wait to lie down on my sofa. I'm so sleepy.</div>
+                                        <div class="picture4 "></div>
+                                        <br clear="both">
+
+                                    </div>
+                                    <div class=" gsub">
+                                        <div class="text1 "> If you're sleepy and you know it take a nap.</div>
+                                        <div class="picture1 "></div>
+                                        <br clear="both">
+
+                                    </div>
+                                    <div class=" gsub">
+                                        <div class="img1 text2  " ></div>
+                                        <div class="picture2 "></div>
+                                        <br clear="both">
+
+                                    </div>
+                                    <div class=" gsub ">
+                                        <div class="text2 ">Your happy passer-by all knows, my distressed there is no place hides.</div>
+                                        <div class="picture4 "></div>
+                                        <br clear="both">
+
+                                    </div>
+                                    <div class="gsub ">
+                                        <div class="text1 "> Love is not a maybe thing. You know when you love someone.</div>
+                                        <div class=picture1 "></div>
+                                    <br clear="both">
+
+                                    </div>
+                                    <div class="gsub ">
+                                        <div class="text1 img2"> </div>
+                                        <div class=picture4 "></div>
+                                    <br clear="both">
+                                    </div>
+                                    <div class="gsub ">
+                                        <div class="text1 "> Today is a sunny day.</div>
+                                        <div class=picture3 "></div>
+                                    <br clear="both">
+
+                                    </div>
+                                    <div class="gsub ">
+                                        <div class="text2 "> Love is not a maybe thing. You know when you love someone.</div>
+                                        <div class=picture2 "></div>
+                                    <br clear="both">
+
+                                    </div>
+                        </div>
+                </div>
+                                <div class="skip">
+
+                                    <div class="enter0">
+                                        <div class="enter1"></div><div class="enter2"></div>
+                                    </div>
+
+                                        <div class="input "></div>
+
+                                </div>
+
+            </div>
+
+</body>
+</html>

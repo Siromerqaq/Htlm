@@ -1,0 +1,46 @@
+#title{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(250,250,250);
+    display: flex;
+    justify-content: space-between;
+}
+#title-left{
+    height: 60px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+#camera{
+    background-image: url(img/camera.svg);
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+}
+#ins{
+    font-size: 20px;
+    font-family: "微软雅黑 Light" ;
+    margin-left: 20px;
+
+
+}
+#title-right{
+    flex: 1;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#live{
+    background-image: url(img/live.svg);
+    width: 35px;
+    height: 35px;
+}
+#send{
+    background-image: url(img/send.svg);
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px 0px 5px ;
+}

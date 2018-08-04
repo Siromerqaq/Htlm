@@ -1,0 +1,48 @@
+#personal-title-left{
+
+    flex: 1;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: rgb(250,250,250);
+
+}
+#person-name{
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    align-content: center;
+    color: rgb(36,36,36);
+    margin-left: 20px;
+
+}
+#person-name-sanjiao{
+    height: 15px;
+    width: 15px;
+    background-image: url(img/sanjiao.svg);
+    background-position: center;
+    background-size: 100%;
+    margin-top: 18px;
+    margin-left: 6px;
+
+}
+#personal-title-right{
+    color: rgb(36,36,36);
+    font-size: 30px;
+    height: 100%;
+    flex: 1;
+    line-height: 50px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(250,250,250);
+
+
+}
+.person-title-icon{
+    background-size: 100%;
+    height: 35px;
+    width: 35px;
+    background-position: center;
+    margin-right: 5px;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style >
+        *{
+            margin: 5px;
+            padding: 0px;
+            font-family: "微软雅黑 Light";
+        }
+        /*::-webkit-scrollbar{*/
+            /*display: none;*/
+        /*}*/
+        .border{
+            border: 1px solid red;
+        }
+        .border1{
+            border: 1px solid  black;
+        }
+        .container {
+            width: 1800px;
+            height: 900px;
+            overflow-y: scroll;
+        }
+
+        .sub{
+            width: 300px;
+            height: 534px;
+            display: inline-block;
+            margin: 5px 10px 10px 5px;
+            overflow: hidden;
+            position: relative;
+
+
+        }
+        .sub:hover{
+
+            box-shadow: 0px 0px 4px gray;
+
+        }
+
+        .picture{
+            width: 290px;
+            height: 300px;
+            background-position: center;
+            background-size: cover;
+            margin-bottom: 10px;
+        }
+        .price{
+            height: 38px;
+            font-size: 30px;
+            color: rgb(255,0,54);
+            display: inline-block;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .title{
+            height: 30px;
+            color: black;
+            display: inline-block;
+            font-size: 20px;
+        }
+        .store{
+            margin-top: 10px;
+            height: 30px;
+            display: inline-block;
+            color: grey;
+            margin-bottom: 10px;
+        }
+        .address{
+            height: 30px;
+            text-align: right;
+            font-size: 20px;
+            color: grey;
+
+
+        }
+        .buy{
+            height: 40px;
+            width: 300px;
+            background-image: url(../overflow/img/购买2.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 20%;
+            background-color: rgb(255,149,0);
+            box-shadow: 0px 0px 5px grey;
+            border-radius: 10px 10px 0px 0px;
+            transition:all 2s ease-in-out;
+            position: absolute;
+            top: 531px;
+            left: -5px;
+
+
+        }
+        .buy:hover {
+            background-color: rgb(255,0,54);
+
+        }
+        .sub:hover .buy{
+            position: absolute;
+            top: 489px;
+
+        }
+
+        .sale{
+            position: absolute;
+            top: -60px;
+            right: -60px;
+            background-color: crimson;
+            width: 110px;
+            height: 110px;
+            transform: rotate(45deg);
+            text-align: center;
+            font-size: 30px;
+            line-height: 185px;
+            color: whitesmoke;
+
+        }
+
+    </style>
+</head>
+<body>
+
+        <div class="container ">
+            <div class="sub  ">
+                    <div class="sale">sale</div>
+                    <div class="picture " style="background-image: url(img/a1main.jpg)"></div>
+                    <div class="price">￥3299.00</div>
+                    <div onclick="window.open('https://item.jd.com/7419252.html')"  class="title">三星 Galaxy S 轻奢版（SM-G8750）4GB+64GB 谜夜黑 移动联通电信4G手机</div>
+                    <div class="store">三星手机京东官方旗舰店&nbsp;&#9752 </div>
+                    <div class="address">北京</div>
+
+                        <a href="https://item.jd.com/7419252.html"><div class="buy    "></div></a>
+
+                </div>
+            <div class="sub ">
+                <div class="picture " style="background-image: url(img/a2main.jpg)"></div>
+                <div class="price">￥7599.00</div>
+                <div onclick="window.open('https://item.jd.com/6405888.html')" class="title">三星 Galaxy S9+（SM-G9650/DS）6GB+256GB 谜夜黑 移动联通电信4G 游</div>
+                <div class="store">三星手机京东官方旗舰店&nbsp;&#9752 </div>
+                <div class="address">北京</div>
+
+                    <a href="https://item.jd.com/6405888.html"><div class="buy"></div></a>
+
+            </div>
+            <div class="sub ">
+                <div class="sale">sale</div>
+                <div class="picture " style="background-image: url(img/a3main.jpg)"></div>
+                <div class="price">￥1299.00</div>
+                <div  onclick="window.open ('https://item.jd.com/2357091.html')" class="title">三星（SAMSUNG）C27F390FHC 27英寸 1800R曲率 广视角低蓝光 曲面电脑液晶 </div>
+                <div class="store">三星手机京东官方旗舰店&nbsp;&#9752 </div>
+                <div class="address">北京</div>
+
+                    <a href="https://item.jd.com/2357091.html"><div class="buy"></div></a>
+
+            </div>
+            <div class="sub ">
+                <div class="picture " style="background-image: url(img/a5main.jpg)"></div>
+                <div class="price">￥439.00</div>
+                <div  onclick="window.open('https://item.jd.com/6287165.html')" class="title">三星(SAMSUNG) 860 EVO 250G SATA3 固态硬盘（MZ-76E250B） 玩转速度 新一  </div>
+                <div class="store">三星手机京东官方旗舰店&nbsp;&#9752  </div>
+                <div class="address">广东&nbsp;深圳</div>
+
+                    <a href="https://item.jd.com/6287165.html"><div class="buy"></div></a>
+
+            </div>
+            <div class="sub ">
+                <div class="sale">sale</div>
+                <div class="picture " style="background-image: url(img/a4main.jpg)"></div>
+                <div class="price">￥3299.00</div>
+                <div onclick="window.open('https://item.jd.com/7633417.html')" class="title">三星 Galaxy S 轻奢版（SM-G8750）4GB+64GB 勃艮第红 移动联通电信4G手</div>
+                <div class="store">三星手机京东官方旗舰店&nbsp;&#9752</div>
+                <div class="address">广东&nbsp;深圳</div>
+
+                    <a href="https://item.jd.com/7633417.html"><div class="buy"></div></a>
+
+            </div>
+            <div class="sub ">
+                <div class="sale">sale</div>
+                <div class="picture " style="background-image: url(img/a6main.jpg)"></div>
+                <div class="price">￥6999.00</div>
+                <div onclick="window.open('https://item.jd.com/6577495.html')" class="title">优惠300元 Samsung/三星 Galaxy S9 SM-G9600/DS 全网通 4G手机  </div>
+                <div class="store">三星手机京东官方旗舰店&nbsp;&#9752 </div>
+                <div class="address">广东&nbsp;深圳</div>
+                    <a href="https://item.jd.com/6577495.html">
+                        <div class="buy" ></div>
+                    </a>
+
+            </div>
+
+        </div>
+
+</body>
+</html>
