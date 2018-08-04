@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        .border{
+            border: 1px solid red;
+        }
+        /*.container{*/
+            /*width: 400px;*/
+            /*height: 800px;*/
+            /*overflow-y: scroll;*/
+
+        /*}*/
+        .sub{
+            width: 400px;
+            height: 600px;
+            background-image: linear-gradient(to top ,rosybrown, sandybrown);
+            display: inline-block;
+            position: relative;
+        }
+        .car{
+            height: 100px;
+            width: 400px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 40px;
+            background-image: url(../img/a1main.jpg);
+            position: absolute;
+            top: 10px;
+
+            transition: all .3s ease-in-out;
+        }
+        .sub:hover .car{
+                top: 200px;
+        }
+    </style>
+</head>
+<body>
+        <!--<div class="border container">-->
+                <div class="sub border">
+                    <div class="car border" ></div>
+                </div>
+
+
+
+        <!--</div>-->
+
+
+</body>
+</html>

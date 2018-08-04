@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: "微软雅黑 Light";
+        }
+        .border{
+            height: 750px;
+            width: 400px;
+            border: 1px solid red;
+        }
+
+        .container{
+            height: 800px;
+            width: 400px;
+            overflow-y: scroll;
+            box-shadow: 0px 0px 10px gray;
+
+        }
+        .sub{
+            height: 1000px;
+            width: 400px;
+        }
+            
+
+        .img{
+            height: 350px;
+            background-position: center;
+            background-size: cover;
+            margin: 20px;
+        }
+
+        .title{
+            font-size: 20px;
+            text-align: left;
+            line-height: 22px;
+            color: gray;
+            font-weight: 700;
+            margin: 10px;
+
+        }
+        .detail{
+            font-size: 16px;
+            text-align: left;
+            line-height: 18px;
+            color: grey;
+            font-weight: 200;
+            margin: 10px;
+        }
+        .price{
+            font-size: 30px;
+            color:rgb(255,0,54);
+            text-align: right;
+            margin: 10px;
+        }
+        .car{
+            height:70px;
+            width: 200px;
+            background-image: url(img/购物车.svg);
+            background-repeat: no-repeat;
+            background-size: 50px;
+            background-position: center;
+            background-color:rgb(255,149,0);
+            display: inline-block;
+            box-shadow: 0px 0px 10px gray;
+
+        }
+        .buy{
+            height:70px;
+            width: 200px;
+            background-image: url(img/购买.svg);
+            background-repeat: no-repeat;
+            background-size: 50px;
+            background-position: center;
+            background-color:rgb(255,0,45);
+            display: inline-block;
+            box-shadow: 0px 0px 10px gray;
+
+
+
+        }
+    </style>
+</head>
+<body>
+     <div class="container ">
+         <div class="sub">
+             <div class="img " style="background-image: url(img/mac.jpg) " ></div>
+             <hr>
+             <div class="title">MAC/魅可官方正品 全色号子弹头口红唇膏 保湿滋润chili小辣椒女</div>
+             <div class="detail ">M·A·C彩妆是出自于加拿大的彩妆品牌，它以其耀眼光芒在品牌建立的初期吸引了雅诗兰黛集团的注意将其收入集团内。同时在雅诗兰黛集团的协助与支持之下，M·A·C的优异特质才得以被发掘、散播，从北美地区远扬至欧亚各国。</div>
+             <div class="price ">¥170 </div>
+             <hr>
+             <div >
+                 <img src="img/p1.jpg" width="400px">
+                 <img src="img/p2.jpg" width="400px">
+                 <img src="img/p3.jpg" width="400px">
+             </div>
+         </div>
+
+     </div>
+     <div class="car"></div><div class="buy"></div>
+
+
+</body>
+</html>
