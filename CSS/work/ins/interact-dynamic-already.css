@@ -37,17 +37,11 @@
 
 
 }
-.interact-text-comment{
-    color: rgb(36,36,36);
+.interact-text-comment {
+    color: rgb(36, 36, 36);
     height: 40px;
     overflow: scroll;
     margin: 5px;
-
-}
-.interact-text-comment-date{
-    color: rgb(159,159,159);
-    height: 40px;
-    margin: 4px;
 
 }
 .interact-text-righpicture{
